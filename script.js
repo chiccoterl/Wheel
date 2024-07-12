@@ -36,9 +36,9 @@ function rotateFunction() {
           var resultTextElement = document.getElementById('result-text');
           
           if (selectedSegment === "Project Manager") {
-              resultImage.src = "/Users/alessandrolibrizzi/Desktop/Wheel/zalone.gif"; // URL della GIF per "Project Manager"
+              resultImage.src = "/zalone.gif"; // URL della GIF per "Project Manager"
           } else {
-              resultImage.src = "/Users/alessandrolibrizzi/Desktop/Wheel/giuseppe.jpg"; // Percorso dell'immagine caricata
+              resultImage.src = "/giuseppe.jpg"; // Percorso dell'immagine caricata
           }
 
           resultImage.style.display = "block";
